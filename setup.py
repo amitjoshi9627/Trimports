@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name="trimports",
-    version="0.1",
+    version="0.1.2",
     description=(
         "A python class which automatically removes unused imports from your Python script."
     ),
-    long_description=open("README.md").read() + "\n\n" + open("CHANGELOG.txt").read(),
+    long_description=open("README.rst").read() + "\n\n" + open("CHANGELOG.txt").read(),
     url="https://github.com/amitjoshi9627/trimports",
     license="MIT",
     author="Amit Joshi",
@@ -17,7 +17,7 @@ setup(
     include_package_data=True,
     entry_points={
         "console_scripts": [
-            "trimports = Trimports.cli",
+            "trimports = Trimports.cli:main",
         ],
     },
     classifiers=[

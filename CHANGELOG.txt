@@ -1,6 +1,10 @@
 Change Log
 ==========
 
-v0.1
+v0.1.1
 -----------------
 > First Release
+
+v0.1.2
+----------------
+Removed import bugs
