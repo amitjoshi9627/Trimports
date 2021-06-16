@@ -20,6 +20,12 @@ required arguments:
  > -l FILE_LOCATION,
  > --location FILE_LOCATION   Location of Target file.
  
+ Functionalities:
+------------------
+1. Remove Unused imports
+2. Remove Duplicate imports
+3. Remove imports which contains * and replace * with the relevant methods used. ( from os import *)
+ 
 Example: 
 --------
 
